@@ -63,7 +63,7 @@ public interface Plane extends MessagingAgent {
      * Plane types for LIAM agents (SARPlane Class)
      */
     public enum Type {
-        SEARCHER, RESCUER , m
+        SEARCHER, RESCUER
     }
 
     /**
