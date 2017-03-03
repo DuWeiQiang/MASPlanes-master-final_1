@@ -64,6 +64,11 @@ public interface Plane extends MessagingAgent {
      */
     public enum Type {
         SEARCHER, RESCUER 
+            /* two types of the UAVs : 
+            Searcher UAV: to search for victims
+            Rescuer UAV: to rescue survivors 
+            
+          */
     }
 
     /**
